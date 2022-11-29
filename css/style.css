@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    list-style: none;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* =====================================================
+nav item start
+===================================================== */
+nav{
+    background: #EEEDDE !important;
+}
+
+nav ul li{
+    margin-left: 100px;
+    position: relative;
+}
+
+nav ul li a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #203239 !important;
+    transition: .4s;
+    position: relative;
+}
+
+nav ul li a i{
+    margin-left: 11px;
+}
+
+nav ul li .dropdown {
+    background: #EEEDDE;
+    position: absolute;
+    top: 40px;
+    left: 26px;
+    transform: rotatex(90deg);
+    transform-origin: top;
+    transition: .4s;
+}
+
+
+nav ul li .dropdown ul li {
+    margin-left: 0;
+    border-bottom: 1px solid #F6762E;
+    padding: 10px 20px;
+}
+
+
+nav ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 23px;
+    width: 23px;
+    height: 3px;
+    background: #F6762E;
+    content: "";
+    border-radius: 20px;
+    opacity: 0;
+    transition: .4s;
+}
+
+nav ul li a:hover{
+    font-weight: 600;
+
+}
+
+nav ul li a:hover::after{
+    opacity: 1;
+}
+
+nav ul li:hover .dropdown{
+    transform: rotatex(0);
+}
+
+
+/* =====================================================
+nav item end
+===================================================== */
+/* =====================================================
+banner part start
+===================================================== */
+#banner-part{
+    background: #EEEDDE;
+}
+
+#banner-part h1{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    margin-top: 105px;
+    margin-bottom: 24px;
+}
+
+#banner-part p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 544px;
+    color: rgba(32, 50, 57, .5);
+}
+
+#banner-part .search input{
+    width: 100%;
+    padding: 23px 0 23px 56px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+#banner-part .search input::placeholder{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgba(32, 50, 57, .5);
+}
+
+#banner-part .search{
+    position: relative;
+    width: 675px;
+    margin-top: 56px;
+}
+
+#banner-part .search i{
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+#banner-part .search button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    background: #203239;
+    color: #fff;
+    padding: 13px 41px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translateY(-50%);
+    -webkit-box-shadow: 0px 5px 11px -7px rgba(0,0,0,0.94);
+    -moz-box-shadow: 0px 5px 11px -7px rgba(0,0,0,0.94);
+    box-shadow: 0px 5px 11px -7px rgba(0,0,0,0.94);
+}
+
+#banner-part .box {
+    display: flex;
+    width: 680px;
+    margin: 56px 0;
+}
+
+#banner-part .box .item{
+    margin-right: 52px;
+    width: 30%;
+    
+}
+
+#banner-part .box .item h2{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    color: #203239;
+}
+
+#banner-part .box .item h2 span{
+    color: #F6762E;
+}
+
+#banner-part .box .item p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 142px;
+
+
+}
+
+
+/* =====================================================
+banner part end
+===================================================== */
+/* =====================================================
+banner part end
+===================================================== */
+#property-part{
+    padding: 100px;
+}
+
+#property-part h4{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    width: 533px;
+    color: #203239;
+}
+
+#property-part .item{
+    height: 300px;
+    width: 300px;
+    margin-top: 64px;
+    margin-right: 133px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px 33px;
+    transition: .4s;
+}
+
+#property-part .item h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #203239;
+    position: relative;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+#property-part .item h5::after {
+    height: 30px;
+    width: 8px;
+    background: #F6762E;
+    position: absolute;
+    top: -2px;
+    left: -33px;
+    content: "";
+    border-radius: 5px;
+}
+
+#property-part .item h5 span{
+    color: #F6762E;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#property-part .item p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgba(32, 50, 57, .55);
+    margin-bottom: 48px;
+}
+
+#property-part .item a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #203239;
+    position: relative;
+}
+
+#property-part .item a::after {
+    width: 40px;
+    height: 30px;
+    background: #EEEDDE;
+    position: absolute;
+    top: -4px;
+    left: 0;
+    content: "";
+    z-index: -1;
+    transition: .4s;
+}
+
+
+#property-part .item a i{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+#property-part .item:hover{
+    border: 1px solid #EEEDDE;
+    cursor: pointer;
+}
+
+
+#property-part .item:hover a::after{
+   width: 103%;
+   cursor: pointer;
+}
+/* =====================================================
+banner part end
+===================================================== */
+/* =====================================================
+favorit part start
+===================================================== */
+#favorit{
+    background: #EEEDDE;
+    padding: 68px 100px;
+    padding-bottom: 160px;
+}
+
+#favorit p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #F6762E;
+}
+
+#favorit h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #203239;
+}
+
+#favorit .favorite_contant{
+    position: relative;
+    margin-top: 64px;
+}
+
+#favorit .favorite_contant h3{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #203239;
+    width: 507px;
+}
+
+#favorit .favorite_contant .description {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+    width: 570px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+
+#favorit .favorite_contant .explore{
+    padding-left: 40px;
+    margin-left: 48px;
+}
+
+
+#favorit .favorite_contant a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #203239;
+    padding: 13px 41px 13px 77px;
+    border: 1px solid #203239;
+    border-radius: 10px;
+    position: relative;
+    transition: .4s;
+}
+
+#favorit .favorite_contant a i {
+    position: absolute;
+    top: 50%;
+    left: 37px;
+    transform: translateY(-50%);
+}
+
+
+#favorit .favorite_contant .fornt_img{
+    position: absolute;
+    top: 60px;
+    left: 167px;
+}
+
+#favorit .favorite_contant a:hover{
+    background: #203239;
+    color: #fff;
+    cursor: pointer;
+}
+/* =====================================================
+favorit part end
+===================================================== */
+/* =====================================================
+kota part start
+===================================================== */
+
+#kota_part{
+    padding: 68px 100px;
+}
+
+#kota_part .titel p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FF7527;
+}
+
+#kota_part .titel h4{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #203239;
+}
+
+#kota_part .icon i{
+    padding: 8px 7.5px;
+    background:#fff;
+    border: 1px solid #EEEDDE;
+    border-radius: 5px;
+    margin-left: 27px;
+    color: #F6762E;
+    margin-top: 45px;
+}
+
+#kota_part .item img{
+    width: 100%;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+
+#kota_part .item h5{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #203239;
+    margin-bottom: 8px;
+}
+
+#kota_part .item p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+}
+
+#kota_part .icon i:hover{
+    background-color: #EEEDDE;
+    cursor: pointer;
+}
+
+/* =====================================================
+kota part end
+===================================================== */
