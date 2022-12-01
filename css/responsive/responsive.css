@@ -1,0 +1,167 @@
+@media (min-width: 320px) and (max-width: 575px){
+    nav ul li {
+        margin-left: 10px;
+    }
+
+    #banner-part h1 {
+        font-size: 29px;
+        font-weight: 542;
+        line-height: 43px;
+        margin-top: 10px;
+    }
+
+    nav ul li .dropdown ul li {
+        margin-left: 0px;
+        padding: 0px 0px;
+    }
+
+    nav ul li .dropdown {
+        top: 23px;
+        left: 109px;
+        transform: rotatex(90deg);
+    }
+
+    #banner-part p {
+        font-size: 14px;
+        line-height: 21px;
+        width: auto;
+    }
+
+    #banner-part .search {
+        width: 100%;
+    }
+
+    #banner-part .search button {
+        top: 89px;
+        right: 77px;
+    }
+
+    #banner-part .search {
+        margin-top: 24px;
+    }
+
+    #banner-part .search i {
+        opacity: 0;
+    }
+
+    #banner-part .search i::before {
+        position: absolute;
+        top: 42px;
+        left: 41px;
+    }
+
+    #banner-part .search input::placeholder{
+       opacity: 0;
+    }
+
+    #banner-part .search input {
+        padding: 10px; 
+    }
+
+    #banner-part .box .item h2 {
+        font-size: 30px;
+        font-weight: 400;
+        padding: 0;
+    }
+
+    #banner-part .box {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    #banner-part .box .item {
+        margin-top: 0;
+        margin-right: 59px;
+    }
+
+    #banner-part .banner_row .banner_img {
+        vertical-align: middle;
+        width: 100%;
+        position: relative;
+        top: -223px;
+        left: 0;
+    }
+
+    #property-part {
+        padding: 0px;
+    }
+
+
+    #property-part h4 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 41px;
+        width: auto;
+    }
+
+    #property-part .item {
+        margin-top: 33px;
+        padding: 6px 41px;
+    }
+
+    #favorit {
+        padding: 24px 0px;
+        padding-bottom: 160px;
+    }
+
+    #favorit .double_img{
+        display: none;
+    }
+
+    #favorit h2 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    #favorit p {
+        margin-bottom: 0rem;
+    }
+
+    #favorit .favorite_contant .description {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 27px;
+        width: auto;
+        margin-top: 15px;
+    }
+
+
+    #favorit {
+        margin-top: 20px;
+    }
+
+    #favorit .favorite_contant h3 {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 35px;
+        color: #F6762E;
+        width: auto;
+        margin-top: -60px;
+    }
+
+    #favorit .favorite_contant a {
+        padding: 11px 30px 11px 90px;
+        margin-left: 25px;
+    }
+
+    #favorit .favorite_contant .explore{
+        position: relative;
+        top: 10px;
+        left: 0px;
+    }
+
+    #favorit .favorite_contant .explore {
+        position: relative;
+        top: 37px;
+        left: -23px;
+    }
+
+    #kota_part {
+        padding: 20px 0px;
+    }
+
+    #favorit {
+        padding-bottom: 92px;
+    }
+/* ================don't cross the line================= */
+}
